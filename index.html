@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B2S Embedding</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    />
+  </head>
+  <body>
+    <h3>Black to School: Embedding</h3>
+    <p>This is a paragraph</p>
+    <hr />
+    <button id="showViz" disabled>Show Viz</button>
+    <button id="hideViz" disabled>Hide Viz</button>
+    <hr />
+
+    <h3>Export Options!</h3>
+
+    <button id="exportToPDF">PDF</button>
+    <button id="exportToCrossTab">Crosstab</button>
+    <button id="exportToPowerPoint">PowerPoint</button>
+    <button id="exportToExcel">Excel</button>
+
+    <div id="vizContainer"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
